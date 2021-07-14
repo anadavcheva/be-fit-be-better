@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="TopGym Template">
+    <meta name="keywords" content="TopGym, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Daily planner</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,500,700,900" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/barfiller.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+<!-- Page Preloder -->
+<div id="preloder">
+    <div class="loader"></div>
+</div>
+<!-- Header Section Begin -->
+<header class="header-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="main-menu">
+                    <nav class="mobile-menu">
+                        <ul>
+                            <li><a href="/home">Home</a></li>
+                            <li><a href="/about-us">About us</a></li>
+                            <li><a href="/contact">Contact</a></li>
+                            <li><a href="./workouts">Workouts</a></li>
+                            <li><a href="/daily-planner">Daily planner</a></li>
+                            <li><a href="/advice">Advice</a></li>
+                            <li class="search-btn search-trigger"><i class="fa fa-search"></i></li>
+                            <li class="" sec:authorize="isAuthenticated()">
+                                <a class="" href="/logout">
+                                    Logout
+                                </a>
+                            </li>
+                            <li class="" sec:authorize="!isAuthenticated()">
+                                <a class="" href="/login">
+                                    Login
+                                </a>
+                            </li>
+
+                        </ul>
+                    </nav>
+                    <div id="mobile-menu-wrap"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- Header End -->
+<!-- Search Bar Begin -->
+<section class="search-bar-wrap">
+    <span class="search-close"><i class="fa fa-close"></i></span>
+    <div class="search-bar-table">
+        <div class="search-bar-tablecell">
+            <div class="search-bar-inner">
+                <h2>Search</h2>
+                <form action="#">
+                    <input type="search" placeholder="Type Keywords">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Search Bar End -->
+<!-- Top Social Begin -->
+<div class="top-social">
+    <div class="top-social-links">
+        <ul>
+            <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+            <li><a href="#"><i class="fa fa-behance"></i></a></li>
+        </ul>
+    </div>
+</div>
+<!-- Top Social End -->
+<!-- Breadcrumb Section Begin -->
+<section class="breadcrumb-area set-bg" data-setbg="img/elements/element-bg.jpg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="breadcrumb-content">
+                    <h2>Daily planner</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Breadcrumb Section End -->
+<!-- Elements Section Begin -->
+<section class="element-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="button-elem aligned">
+                    <a href="/task" class="primary-btn">Make a task</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Elements Section End -->
+<section class="upcoming-event-section spad-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="upcoming-classes">
+                    <div class="up-title">
+                        <span>Next</span>
+                        <h5>Upcomming Classes</h5>
+                    </div>
+                    <ul class="classes-time">
+                        <li><img src="img/stopwatch.png" alt=""> Strength Fitness <span>11:00 - 12:00</span></li>
+                        <li><img src="img/stopwatch.png" alt=""> Pilates <span>12:00 - 13:00</span></li>
+                        <li><img src="img/stopwatch.png" alt=""> Cardio Workout <span>13:00 - 14:00</span></li>
+                        <li><img src="img/stopwatch.png" alt=""> Yoga <span>14:00 - 15:00</span></li>
+                        <li><img src="img/stopwatch.png" alt=""> HIIT Workout <span>15:00 - 16:00</span></li>
+                        <li><img src="img/stopwatch.png" alt=""> Full Body Workout <span>16:00 - 17:00</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="membership-card set-bg" data-setbg="img/m-card.jpg">
+                    <div class="membership-details">
+                        <div class="up-title">
+                            <span>Next</span>
+                            <h5>Membership Cards</h5>
+                        </div>
+                        <div class="discount">
+                            <h1>25% <span>Discount</span></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <div class="member-sign-up set-bg" data-setbg="img/signup-bg.jpg">
+                    <div class="up-title">
+                        <span>New</span>
+                        <h5>Personal Trainer</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Js Plugins -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.slicknav.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/circle-progress.min.js"></script>
+<script src="js/jquery.barfiller.js"></script>
+<script src="js/main.js"></script>
+</body>
+
+</html>
